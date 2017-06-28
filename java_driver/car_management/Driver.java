@@ -4,10 +4,10 @@ import behaviours.*;
 public class Driver {
 
   private String name;
-  private Driveable ride;
+  private Driveable vehicle;
 
- public Driver(String name, Driveable ride) {
+ public Driver(String name, Driveable vehicle) {
    this.name = name;
-   this.ride = ride;
+   this.vehicle = vehicle;
   }
 }
