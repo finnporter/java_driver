@@ -10,4 +10,21 @@ public class Driver {
    this.name = name;
    this.vehicle = vehicle;
   }
+
+  public String getName() {
+    return this.name;
+  }
+
+  public Driveable getVehicle() {
+    return this.vehicle;
+  }
+
+  public int driveDistance(int distance) {
+    return this.vehicle.driveDistance(40);
+  }
+
+  public void setVehicle(Driveable vehicle) {
+     this.vehicle = vehicle;
+  }
+
 }
