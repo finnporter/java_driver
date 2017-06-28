@@ -15,6 +15,10 @@ public class DodgemCar implements Driveable {
     return this.averageSpeed;
   }
 
+  public int getSeats() {
+    return this.numberOfSeats;
+  }
+
   // public int driveDistance(int distance) {
   //   return null; //time it requires to drive a distance
   // }
