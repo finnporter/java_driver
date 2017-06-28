@@ -3,12 +3,12 @@ import behaviours.*;
 
 public class DodgemCar implements Drivable {
 
-  int averageSpeed;
-  int numberOfSeats;
+  private int averageSpeed;
+  private int numberOfSeats;
 
   public DodgemCar(int averageSpeed, int numberOfSeats);
     this.averageSpeed = speed;
     this.numberOfSeats = numberOfSeats;
 
-    
+
 }

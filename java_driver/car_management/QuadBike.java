@@ -3,8 +3,8 @@ import behaviours.*;
 
 public class QuadBike implements Drivable {
 
-  int averageSpeed;
-  int engineCapacity;
+  private int averageSpeed;
+  private int engineCapacity;
 
   public QuadBike(int averageSpeed, int engineCapacity);
     this.averageSpeed = averageSpeed;
