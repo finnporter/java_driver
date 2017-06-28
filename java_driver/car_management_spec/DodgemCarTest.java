@@ -20,4 +20,9 @@ public class DodgemCarTest {
   public void hasSeats() {
     assertEquals(2, dodgemCar.getSeats());
   }
+
+  @Test
+  public void canDriveDistance() {
+    assertEquals(1, dodgemCar.driveDistance(10));
+  }
 }

@@ -20,4 +20,9 @@ public class QuadBikeTest {
   public void hasEngineCapacity() {
     assertEquals(250, quadbike.getEngineCapacity());
   }
+
+  @Test
+  public void canDriveDistance() {
+    assertEquals(1, quadbike.driveDistance(40));
+  }
 }
