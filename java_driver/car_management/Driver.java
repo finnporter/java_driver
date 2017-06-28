@@ -20,7 +20,7 @@ public class Driver {
   }
 
   public int driveDistance(int distance) {
-    return this.vehicle.driveDistance(40);
+    return this.vehicle.driveDistance(distance);
   }
 
   public void setVehicle(Driveable vehicle) {
