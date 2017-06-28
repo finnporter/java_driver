@@ -10,4 +10,12 @@ public class QuadBike implements Driveable {
     this.averageSpeed = averageSpeed;
     this.engineCapacity = engineCapacity;
   }
+
+  public int getSpeed() {
+    return this.averageSpeed;
+  }
+
+  public int getEngineCapacity() {
+    return this.engineCapacity;
+  }
 }
