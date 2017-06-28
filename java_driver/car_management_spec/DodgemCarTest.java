@@ -11,6 +11,7 @@ public class DodgemCarTest {
     dodgemCar = new DodgemCar(10, 2);
   }
 
+  @Test
   public void hasSpeed() {
     assertEquals(10, dodgemCar.getSpeed());
   }
