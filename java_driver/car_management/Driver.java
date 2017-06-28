@@ -19,7 +19,7 @@ public class Driver {
     return this.vehicle;
   }
 
-  public int driveDistance(int distance) {
+  public int driveDistance(int distancee) {
     return this.vehicle.driveDistance(distance);
   }
 
